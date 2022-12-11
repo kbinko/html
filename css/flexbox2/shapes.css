@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900& display=swap');
+body {
+    background-color: #3d3d3d;
+}
+
+.hero {
+    padding: 5rem;
+    position: relative;
+    min-height: 50vh;
+    margin-block-end: 5rem;
+}
+
+main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position: relative;
+    min-height: 50vh;
+    margin-block-end: 5rem;
+    margin-top: 1rem;
+}
+
+main h2 {
+    font-family: 'Lato', sans-serif;
+    color: hsl(177, 46%, 65%);
+    font-size: clamp(2.5rem, 5vw + 0.1rem, 2rem);
+    line-height: 1;
+    font-weight: 700;
+}
+
+main p {
+    font-family: 'Lato', sans-serif;
+    color: hsl(177, 46%, 65%);
+    font-size: clamp(1.5rem, 5vw + 0.1rem, 1rem);
+    line-height: 1;
+    font-weight: 400;
+}
+
+.hero-title {
+    font-family: 'Lato', sans-serif;
+    color: hsl(177, 46%, 65%);
+    font-size: clamp(2.5rem, 10vw + 0.5rem, 6rem);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.hero-image {
+    -webkit-mask-image: url(ink-splash-2.svg);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: url(ink-splash-2.svg);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}

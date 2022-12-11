@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900& display=swap');
+body {
+    background-color: #858585;
+}
+
+.hero {
+    padding: 5rem;
+    position: relative;
+    min-height: 50vh;
+    margin-block-end: 5rem;
+}
+
+.hero-title {
+    font-family: 'Lato', sans-serif;
+    color: hsl(177, 46%, 65%);
+    font-size: clamp(2.5rem, 10vw + 0.5rem, 6rem);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(rgb(0 0 0 / 1), rgb(0 0 0 / 0.5), 40%, rgb(0 0 0 / 0));
+    mask-image: linear-gradient(rgb(0 0 0 / 1), rgb(0 0 0 / 0.5), 40%, rgb(0 0 0 / 0));
+}

@@ -1,0 +1,64 @@
+:root {
+    --ff-primary: basic-sans, sans-serif;
+    --clr-primary: #ee6352;
+    --clr-body: #333;
+    --clr-bg: #ddd;
+    --spacer: 1rem;
+}
+
+h1 {
+    color: rgb(128, 128, 128);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.even-columns {
+    display: flex;
+    gap: 1em;
+}
+
+.even-columns>* {
+    flex-basis: 100%;
+}
+
+.grid-ish {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.grid-ish>* {
+    flex: 1 1 10em;
+}
+
+.content-sidebar {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.content-sidebar>*:nth-child(1) {
+    flex: 1 1 70%;
+    min-width: 35ch;
+}
+
+.content-sidebar>*:nth-child(2) {
+    flex: 1 1 30%;
+    min-width: 15ch;
+}
+
+.col {
+    background-color: rgb(201, 201, 201);
+    padding: 2em;
+    border: 2px solid black;
+}
+
+.content {
+    width: 70vh;
+    margin: 3rem auto;
+    padding: 2em;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0);
+}
